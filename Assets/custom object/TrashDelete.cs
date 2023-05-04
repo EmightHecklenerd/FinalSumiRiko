@@ -21,7 +21,7 @@ public class TrashDelete : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Water"))
+        if (other.gameObject.CompareTag("wate"))
         {
             Destroy(other.gameObject);
         }
