@@ -552,8 +552,9 @@ GameObject:
   - component: {fileID: 212806955}
   - component: {fileID: 212806954}
   - component: {fileID: 212806953}
+  - component: {fileID: 212806956}
   m_Layer: 0
-  m_Name: Cube (3)
+  m_Name: detector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -637,6 +638,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 212806951}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &212806956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212806951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7abfc9c24d5961b4694cd5619f1a1776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &212993127
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2051,15 +2064,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4037761179768092, guid: 0d0108998db54bc438cdb6d18c42a503, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.763
+      value: -1.891
       objectReference: {fileID: 0}
     - target: {fileID: 4037761179768092, guid: 0d0108998db54bc438cdb6d18c42a503, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.903
+      value: 0.715
       objectReference: {fileID: 0}
     - target: {fileID: 4037761179768092, guid: 0d0108998db54bc438cdb6d18c42a503, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.481
+      value: -2.046
       objectReference: {fileID: 0}
     - target: {fileID: 4037761179768092, guid: 0d0108998db54bc438cdb6d18c42a503, type: 3}
       propertyPath: m_LocalRotation.w
