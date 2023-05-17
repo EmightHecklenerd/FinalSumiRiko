@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class detectortion : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    
+    private void OnCollisionEnter (Collision other)
     {
-        
+        if (other.gameObject.CompareTag("lid"))
+        {
+            GetComponent<MeshRenderer>().material.color = Color.red;
+        }
+
+        else if (other.gameObject.CompareTag("good"))
+        {
+            GetComponent<MeshRenderer>().material.color = Color.green;
+        }
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
+
+
 }
